@@ -1,6 +1,6 @@
 # Black-Scholes Options Pricing Calculator
 
-An options pricing calculator that implements the Black-Scholes model from scratch and visualizes how call and put prices respond to changes in volatility and underlying stock price — displayed as side-by-side heatmaps.
+An options pricing calculator that implements the Black-Scholes model from scratch and visualizes how call and put prices respond to changes in volatility and underlying stock price, displayed as side-by-side heatmaps.
 
 <img width="1261" height="659" alt="Screenshot 2026-08-02 at 6 07 55 PM" src="https://github.com/user-attachments/assets/5c717c7f-f53d-4a07-80a3-bb55ddf76195" />
 
@@ -59,6 +59,3 @@ Strike price, Stock price, Implied volatility (decimal), Time (years), Risk-free
 
 Example: Strike 100, Stock 100, Vol 0.2, Time 1, Rate 0.05 → Call ~$10.45, Put ~$5.57
 
----
-
-Built after working through the Black-Scholes derivation to understand what d1 and d2 actually measure — not just implementing the formula but understanding why each component exists.
